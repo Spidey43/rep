@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  padding-right: 270px;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  right: 0px;
+  width: 270px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #ffc232;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #ffb606;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: white;
+}
+
+#sidebar .nav{
+  
+}
+
+#sidebar .nav a{
+  background: none;
+  border-bottom: 1px solid #ffffff;
+  color: black;
+  font-size: 14px;
+  padding: 16px 24px;
+  text-align: right;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ffffff;
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
+}
+
+.align-icon {
+  padding-left: 5px;
+}
+
+/* colors were 777777 and 333333 on hover 
+   navbar was ffb606 for header and ffc232 for body*/
